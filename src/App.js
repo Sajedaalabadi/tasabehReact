@@ -43,7 +43,7 @@ function App() {
       <button style={{ borderRadius: '50%', width: '150px', height: '150px', backgroundColor: buttonColor, color: '#000000', fontSize: '20px', fontWeight: 'bold' }} onClick={handleButtonClick}>
         {buttonText}
       </button><br/>
-      <p style={{fontWeight: 'bold',display: 'flex', justifyContent: 'center', alignItems: 'center',color:'white'}}>عدد التسبيحات:{counter}</p>
+      <p style={{fontWeight: 'bold',display: 'flex', justifyContent: 'center', alignItems: 'center',color:'white'}}>عدد التسبيحات:`${counter}`</p>
     </div>
 
   );
